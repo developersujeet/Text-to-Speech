@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+h1{
+    margin-top: 4rem;
+}
+div{
+    text-align: center;
+    height: 20rem;
+    width: 18rem;
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content:center;
+}
+input,button{
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+input {
+  background-color: transparent;
+  padding: 0.25rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button{
+    border: none;
+    background-color: green;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.25rem;
+    margin-bottom:2rem;
+}
